@@ -1,0 +1,1 @@
+INSERT INTO course values('Mathematics')

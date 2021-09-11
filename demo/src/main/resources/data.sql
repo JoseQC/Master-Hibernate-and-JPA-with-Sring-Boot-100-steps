@@ -1,1 +1,1 @@
-INSERT INTO course values('Mathematics')
+SELECT * FROM course

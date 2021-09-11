@@ -25,8 +25,11 @@ public class DemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        //courseRepository.save(new Course("Mathematic"));
-        courseRepository.findById(1);
+        courseRepository.save(new Course("Mathematics"));
+        courseRepository.save(new Course("Physics"));
+        courseRepository.save(new Course("Language"));
+        LOGGER.info(courseRepository.findById(1L).toString());
+
 
     }
 }
